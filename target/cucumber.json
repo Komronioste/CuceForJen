@@ -1,0 +1,85 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-21T18:01:16.189Z",
+        "line": 4,
+        "name": "Getting top three customers with highest credit limit",
+        "description": "",
+        "id": "database-testing;getting-top-three-customers-with-highest-credit-limit",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 594780700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am connected to the database",
+            "match": {
+              "location": "com.neotech.steps.DBSteps.i_am_connected_to_the_database()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74370400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get the top three customers by credit limit",
+            "match": {
+              "location": "com.neotech.steps.DBSteps.i_get_the_top_three_customers_by_credit_limit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I print their names and credit limits",
+            "match": {
+              "location": "com.neotech.steps.DBSteps.i_print_their_names_and_credit_limits()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4998300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I close the database connection",
+            "match": {
+              "location": "com.neotech.steps.DBSteps.i_close_the_database_connection()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DB"
+          }
+        ]
+      }
+    ],
+    "name": "Database Testing",
+    "description": "",
+    "id": "database-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DBExample.feature",
+    "tags": [
+      {
+        "name": "@DB",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
