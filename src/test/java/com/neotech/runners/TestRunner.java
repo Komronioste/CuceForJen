@@ -18,7 +18,7 @@ import io.cucumber.junit.CucumberOptions;
 		//tags can do the same thing groups on TestNG do
 //		tags = "@smoke or @regression"
 //		monochrome = false,
-		tags = "@smoke",
+		tags = "@LoginFunctionality",
 		
 		monochrome = true,
 		
